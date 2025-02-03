@@ -1,6 +1,6 @@
 package kunalKushwah;
 
-public class LinearSearch {
+public class LinearSearchProgram {
 
     public static void main(String[] args) {
 
