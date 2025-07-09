@@ -19,7 +19,7 @@ public class CommanPrefixString {
         StringBuilder result= new StringBuilder();
 
         Arrays.sort(strs);
-        System.out.println("sorted array!!!\n"+strs);
+//        System.out.println("sorted array!!!\n"+strs);
         char [] first= strs[0].toCharArray();
         char [] last= strs[strs.length-1].toCharArray();
 
