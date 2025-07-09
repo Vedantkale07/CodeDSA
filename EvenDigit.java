@@ -1,4 +1,4 @@
-package kunalKushwah;
+package com.leedcodeQuestions;
 
 public class EvenDigit {
     public static void main(String[] args) {
