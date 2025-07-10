@@ -1,2 +1,4 @@
-package com.leedcodeQuestions;public class PascalTringal {
+package com.leedcodeQuestions;
+
+public class PascalTringal {
 }

@@ -1,4 +1,4 @@
-package com.sortingAlgorithm;
+package com.leedcodeQuestions;
 
 
 import java.util.Arrays;
