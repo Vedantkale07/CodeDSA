@@ -7,11 +7,9 @@ package com.leedcodeQuestions;
 public class FindKthPositiveNumber {
 
     public static void main(String[] args) {
-
         int [] arr={1,2,3,4,5,7,9};
-        int k=2;
+        int k=1;
         System.out.println(findKthPositiveNumber(arr,k));
-
     }
 
     public static int findKthPositiveNumber(int [] arr, int k){
