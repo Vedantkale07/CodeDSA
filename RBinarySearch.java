@@ -1,7 +1,8 @@
-package arrays;
+package quetionDSA;
 
 //search target using binary search
 // used recursion to solve this problem
+
 public class RBinarySearch {
 
     public static void main(String[] args) {
@@ -22,6 +23,7 @@ public class RBinarySearch {
         }
 
         // target is less than mid element
+
         if (arr[s] <= arr[mid]) {
             if (target >= arr[s] && target <= arr[mid]) {
                 return search(arr, target, s, mid - 1);
@@ -30,9 +32,10 @@ public class RBinarySearch {
             }
         }
         if (target > arr[mid] && target < arr[e]) {
+
             return search(arr, target, mid + 1, e);
         }
         return search(arr, target, s, mid - 1);
-        }
+    }
 
 }
