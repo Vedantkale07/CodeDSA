@@ -5,7 +5,7 @@ public class LinearSearchProgram {
     public static void main(String[] args) {
 
         int arr [] = { 44,22,1,42,63,22,21,26,32};
-        int ans= linearSearch(arr, 11);
+        int ans= linearSearch(arr, 21);
         System.out.println(ans);
 
     }
@@ -26,7 +26,7 @@ public class LinearSearchProgram {
             }
         }
 
-        // this line execute if non of above statement is executed
+        // this line execute if non of above state ment is executed
         // hence the target is not found
         return -1;
     }
